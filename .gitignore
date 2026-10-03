@@ -1,0 +1,41 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+*_accessKeys.csv
+
+# Data (program rule: code only, no CSV or raw data)
+*.csv
+*.sql
+*.sql.gz
+
+# Terraform (state files can contain secrets)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Private / local-only material
+handbooks/
+lectures/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# OS / editor leftovers
+*:Zone.Identifier
+*.TMP
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
