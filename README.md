@@ -8,6 +8,7 @@ Work for the IDX Exchange AWS Cloud Engineer internship (2026). The program is a
 propertylite/          Flask property API provided by the program (Week 0)
 week-01/               Cloud fundamentals and account setup
 week-02/               IAM and security foundations (least-privilege policies)
+week-03/               EC2 deployment runbook for PropertyLite
 scripts/
   check_secrets.sh     pre-push safety check
 ```
@@ -20,6 +21,7 @@ A new `week-NN/` folder is added as each week's deliverable is completed.
 |------|-------|
 | [Week 1](week-01/README.md) | Cloud fundamentals and account setup: root MFA, zero-spend budget, IAM admin user, AWS CLI |
 | [Week 2](week-02/README.md) | IAM and security foundations: least-privilege S3 policy, low-privilege test user, IAM Access Analyzer, Policy Simulator |
+| [Week 3](week-03/runbook.md) | Compute with EC2: PropertyLite deployed with a user data bootstrap script, security groups, EBS snapshot, SSH timeout debugging |
 
 ## Running PropertyLite locally
 
