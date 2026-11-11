@@ -12,6 +12,7 @@ week-03/               EC2 deployment runbook for PropertyLite
 week-04/               Storage and database decision guide (S3, EBS, EFS, RDS, DynamoDB)
 week-05/               VPC diagram and the path to a private instance
 week-06/               ALB + Auto Scaling load-test report (CPU spike and scale-out)
+week-07/               Serverless read path: API Gateway → Lambda → DynamoDB (+ SQS/DLQ)
 scripts/
   check_secrets.sh     pre-push safety check
 ```
@@ -28,6 +29,7 @@ A new `week-NN/` folder is added as each week's deliverable is completed.
 | [Week 4](week-04/decision-guide.md) | Storage and databases: S3 lifecycle rule, RDS MySQL, DynamoDB, and when to use S3, EBS, EFS, RDS, or DynamoDB |
 | [Week 5](week-05/README.md) | VPC networking: public and private subnets, bastion host, NAT Gateway, and the path to a private instance |
 | [Week 6](week-06/load-test-report.md) | Elastic Load Balancing and Auto Scaling: ALB in front of PropertyLite, self-healing, CPU scale-out |
+| [Week 7](week-07/README.md) | Serverless: API Gateway → Lambda → DynamoDB for property lookup, plus SQS with a dead-letter queue |
 
 ## Running PropertyLite locally
 
