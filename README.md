@@ -13,6 +13,7 @@ week-04/               Storage and database decision guide (S3, EBS, EFS, RDS, D
 week-05/               VPC diagram and the path to a private instance
 week-06/               ALB + Auto Scaling load-test report (CPU spike and scale-out)
 week-07/               Serverless read path: API Gateway → Lambda → DynamoDB (+ SQS/DLQ)
+week-08/               Terraform: Week 5 VPC rebuilt as code (plan / apply / destroy + state)
 scripts/
   check_secrets.sh     pre-push safety check
 ```
@@ -30,6 +31,7 @@ A new `week-NN/` folder is added as each week's deliverable is completed.
 | [Week 5](week-05/README.md) | VPC networking: public and private subnets, bastion host, NAT Gateway, and the path to a private instance |
 | [Week 6](week-06/load-test-report.md) | Elastic Load Balancing and Auto Scaling: ALB in front of PropertyLite, self-healing, CPU scale-out |
 | [Week 7](week-07/README.md) | Serverless: API Gateway → Lambda → DynamoDB for property lookup, plus SQS with a dead-letter queue |
+| [Week 8](week-08/README.md) | Infrastructure as Code: recreate the training VPC with Terraform, and why state / drift matter |
 
 ## Running PropertyLite locally
 
